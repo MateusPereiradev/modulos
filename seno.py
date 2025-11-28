@@ -1,8 +1,8 @@
 from math import sin, cos, tan, radians
-angulo= float(input("Digite aqui um ângulo:"))
-print(f"Referente ao angulo {angulo} informado, o seno é {sin(radians(angulo)):.2f}")
-print(f"Referente ao angulo {angulo} informado, o cosseno é {cos(radians(angulo)):.2f}")
-print(f"Referente ao angulo {angulo} informado, a tangente é {tan(radians(angulo)):.2f}")
+angulo= float(input('Digite aqui um ângulo qualquer:'))
+print(f'Referente ao angulo {angulo}, o valor do seno é {sin(radians(angulo)):.2f}')
+print(f'Referente ao angulo {angulo}, o valor de cosseno é {cos(radians(angulo)):.2f}')
+print(f'Referente ao angulo {angulo}, o valor da tangente é {tan(radians(angulo)):.2f}')
 
 
 '''
