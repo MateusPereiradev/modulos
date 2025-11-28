@@ -1,6 +1,6 @@
 from random import sample
-ordem= str(input("Digite aqui o nome dos alunos:")).split(",")
-print(f"Diante dos alunos informados, a ordem de apresentação do trabalho será {sample(ordem, 4)}")
+alunos= str(input('Digite aqui o nome dos alunos participantes:')).strip().split()
+print(f'Referente ao nome dos alunos, a ordem de apresentação será {sample(alunos, 3)}')
 
 '''
 O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos.
